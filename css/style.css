@@ -51,3 +51,38 @@ table {
 
 
 /* Write your css below here */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.images .image img{
+	height: 100%;
+	width: 100%;
+	display: grid;
+}
+.images .image{
+	height:280px
+	
+}
+div{
+	display: block;
+}
+.container{
+	width: 85%;
+	border-radius: 12px;
+	margin: auto;
+	padding: 70px 20px;
+	margin-bottom: 40px;
+	min-height: 200vh;
+}
+body{
+	overflow-y: auto;
+	width: 100%;
+}
+.images{
+	height: 90vh;
+	display: grid;
+	padding: 10px;
+	gap: 10px;
+}
